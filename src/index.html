@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick calculator</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Quick Calculator</h1>
+  </header>
+  <main class="main">
+    <section>
+      <form>
+        <label for="operator">Choose a mathematical operator:</label>
+        <select id="operator">
+          <option selected="selected" value="+">+</option>
+          <option value="-">-</option>
+          <option value="x">x</option>
+          <option value="/">/</option>
+        </select>
+        <br>
+        <input id="num1" type="number" step="any" required>
+        <span id="operatorSign">+</span>
+        <input id="num2" type="number" step="any" required>
+        <span>=</span>
+        <input type="text" id="result" readonly>
+        <button class="button">result</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

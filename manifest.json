@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Quick Calculator",
+  "version": "1.0",
+  "description": "Performs mathematical calculations of basic operations",
+  "author": "Francisco Chaves",
+  "browser_action": {
+    "default_title": "Quick Calculator",
+    "default_popup": "src/index.html",
+    "default_icon": {
+      "19": "src/assets/img/icon.png"
+    }
+  }
+}
